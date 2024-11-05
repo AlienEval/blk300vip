@@ -1,0 +1,22 @@
+{
+  "status_groups": {
+    "denied": [
+      "ban",
+      "striked",
+      "leave",
+      "timeout"
+    ]
+  },
+  "status_mappings": {
+    "init": "ltoken",
+    "ltoken": "ctoken",
+    "ctoken": "mtoken",
+    "mtoken": "mfa",
+    "mfa": "finish"
+  },
+  "mfastatus_mapping": {
+    "on": "mfa",
+    "off": "finish"
+  }
+}
+
